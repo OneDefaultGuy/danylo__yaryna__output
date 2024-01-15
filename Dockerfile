@@ -15,7 +15,7 @@ RUN apt update && apt upgrade --yes
 COPY --chown=${USER} requirements requirements
 
 RUN pip install --upgrade pip && \
-    pip install --requirement requirements/production.txt
+    pip install --requirement requirements/base.txt
 
 COPY --chown=${USER} main.py main.py
 

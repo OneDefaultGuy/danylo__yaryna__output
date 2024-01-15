@@ -1,1 +1,1 @@
---requirement requirements/production.txt
+--requirement requirements/base.txt
