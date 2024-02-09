@@ -7,7 +7,11 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.idea
+.python-version
 .Python
+compose.override.dev.yaml
+compose.override.yaml
 build/
 develop-eggs/
 dist/
